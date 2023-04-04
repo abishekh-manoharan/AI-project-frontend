@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Home(props) {
+function Predict(props) {
     return (
         <div>
-            test
+            prediction page
         </div>
     );
 }
 
-export default Home;
+export default Predict;
