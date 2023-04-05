@@ -13,7 +13,8 @@ function Home(props) {
             <div class="names">Lewis Merino - <strong>822273553</strong></div>
             <div class="names">Vinit Purohit - <strong>301165253</strong></div>
             
-            <br/><br/>
+            <br/><br/> 
+            
             <div id="description">
                 This application predicts the writing test score of a student using a model trained on the following features: gender, race/ethnicity, parental level of education, lunch, math score, reading score, test preparation course. Click the "Predict" button on the far right to begin.
             </div> 
