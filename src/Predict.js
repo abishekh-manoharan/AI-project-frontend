@@ -84,12 +84,12 @@ function Predict(props) {
 
                 <div class="predictionParam">
                     <label for="reading">Reading Test Score:  </label>
-                    <input type='number' min={0} max={100} name="reading"></input>
+                    <input type='number' min={0} max={100} required name="reading"></input>
                 </div>
 
                 <div class="predictionParam">
                     <label for="math">Math Test Score:  </label>
-                    <input type='number' min={0} max={100} name="math"></input>
+                    <input type='number' min={0} max={100} required name="math"></input>
                 </div>
                     <button type="submit">Predict</button>
             </form>
