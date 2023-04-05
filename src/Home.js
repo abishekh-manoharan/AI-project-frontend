@@ -9,9 +9,9 @@ function Home(props) {
             <br/><br/><br/>
             
 
-            <div class="names">Abi Manoharan</div>
-            <div class="names">Lewis Merino</div>
-            <div class="names">Vinit Purohit</div>
+            <div class="names"><strong>Abi Manoharan</strong> - 301165253</div>
+            <div class="names"><strong>Lewis Merino</strong> - 822273553</div>
+            <div class="names"><strong>Vinit Purohit</strong> - 301170869</div>
             
             <br/><br/> 
 
