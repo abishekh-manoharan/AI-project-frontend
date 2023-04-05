@@ -20,7 +20,7 @@ function Predict(props) {
 
         const promise  = axios({
             method: "post",
-            url: 'http://abimanoharan.pythonanywhere.com/',
+            url: 'https://abimanoharan.pythonanywhere.com/',
             data: form,
             headers: {
                 'Content-Type': `multipart/form-data; boundary=${form._boundary}`,
