@@ -16,7 +16,7 @@ function Home(props) {
             <br/><br/> 
 
             <div id="description">
-                This application predicts the writing test score of a student using a model trained on the following features: gender, race/ethnicity, parental level of education, lunch, math score, reading score, test preparation course. Click the "Predict" button on the far right to begin.
+                This application predicts the writing test score of a student using a model trained on the following features: gender, race/ethnicity, parental level of education, lunch, math score, reading score, test preparation course. Click the "Predict" button on the navigation bar to begin.
             </div> 
 
             <br/><br/>
