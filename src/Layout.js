@@ -7,15 +7,13 @@ function Layout(props) {
     }
     return (
         <>
-            <div id="navBar">
-                <img src="https://placekitten.com/100/30"/>         
+            <div id="navBar">    
                 <Link class="navItem" style={farRightNavItem} to="predict">Predict</Link>
-                <Link class="navItem"  to="about">About</Link>
                 <Link class="navItem" to="home">Home</Link>
             </div>
             <Outlet/>            
             <div id="footer">
-                Group _ Final project
+                Group 4 Final project
             </div>        
         </>
         

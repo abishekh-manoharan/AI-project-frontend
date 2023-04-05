@@ -1,12 +1,12 @@
 body {
     margin: 0;
-    background-color: rgb(190, 219, 236);
+    background-color: rgb(249, 251, 252);
 }
 
 #navBar {
     font-size: 25px;    
     width: 100%;
-    background-color: beige;
+    background-color:  rgb(233, 233, 233);
     position: fixed;
     top: 0;
 }
@@ -16,7 +16,7 @@ body {
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: beige;
+    background-color: rgb(233, 233, 233);
 }
 
 .navItem {
@@ -31,4 +31,28 @@ body {
 .content {
     margin-top:50px;
     text-align: center;
+}
+
+#prediction {
+    font-size: 30px;
+    color: rgb(113, 197, 113);
+    margin:20px
+}
+
+.predictionParam {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size:larger;
+
+}
+
+select {
+    width: 200px;
+    text-align: center;
+}
+
+.names {
+    font-size: large;
 }

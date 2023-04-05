@@ -1,7 +1,6 @@
 import './App.css'
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from "./Home";
-import About from "./About";
 import Err from "./Err";
 import Layout from "./Layout"
 import Predict from "./Predict"
@@ -14,7 +13,6 @@ const App = () => {
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home/>}/>
           <Route path="home" element={<Home/>}/>
-          <Route path="about" element={<About/>}/>
           <Route path="predict" element={<Predict/>}/>
           <Route path="*" element={<Err/>}/>
         </Route>
