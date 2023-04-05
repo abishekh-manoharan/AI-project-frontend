@@ -8,6 +8,7 @@ body {
     width: 100%;
     background-color: beige;
     position: fixed;
+    top: 0;
 }
 
 #footer {
@@ -25,4 +26,9 @@ body {
     text-decoration: none;
     color: black;
     float: right;
+}
+
+.content {
+    margin-top:50px;
+    text-align: center;
 }
